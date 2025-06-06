@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=timer" />
     <link rel="stylesheet" href="style.css">
     <title>Quiz</title>
 </head>
@@ -29,6 +31,45 @@
         </div>
 
         <button class="start-quiz-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h2 class="quiz-title">Quiz</h2>
+            <div class="quiz-timer">
+                <span class="material-symbols-outlined">
+                    timer
+                </span>
+                <p class="time-duration">
+                    15s
+                </p>
+            </div>
+        </header>
+
+        <div class="quiz-content">
+            <h1 class="quiz-question">What is that?</h1>
+            <ul class="answer-options">
+                <li class="answer-option">
+                    <p>omm</p>
+                </li>
+                <li class="answer-option">
+                    <p>gfg</p>
+                </li>
+                <li class="answer-option">
+                    <p>fgfg</p>
+                </li>
+                <li class="answer-option">
+                    <p>as</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="quiz-footer">
+            <p class="question-status"><b>1</b> of <b>10</b> Questions</p>
+            <button class="next">
+                Next
+            </button>
+        </div>
     </div>
 
     <script src="script.js"></script>
